@@ -27,7 +27,13 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>snirba-rtf-releases</name>
+            <url>http://34.93.110.232:8081/artifactory/libs-release-local</url>
+        </repository>
+    </distributionManagement>
     <build>
         <pluginManagement>
             <plugins>
