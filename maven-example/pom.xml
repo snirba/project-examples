@@ -28,11 +28,11 @@
         </dependency>
     </dependencies>
     <distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>snirba-rtf-releases</name>
-            <url>http://34.93.110.232:8081/artifactory/libs-release-local</url>
-        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>snirba-rtf-snapshots</name>
+            <url>http://34.93.110.232:8081/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
     </distributionManagement>
     <build>
         <pluginManagement>
