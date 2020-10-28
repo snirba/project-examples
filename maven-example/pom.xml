@@ -27,13 +27,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>snirba-rtf-snapshots</name>
-            <url>http://34.93.110.232:8081/artifactory/libs-snapshot-local</url>
-        </snapshotRepository>
-    </distributionManagement>
     <build>
         <pluginManagement>
             <plugins>
